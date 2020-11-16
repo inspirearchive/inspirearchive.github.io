@@ -1,0 +1,15 @@
+{% assign translation = site.data.language[page.lang] %}
+{% assign announce = site.data.announcement[0] %}
+<div class="blog-header">
+  <noscript>{{ translation.noscript }}</noscript>
+  <!-- <img src={{ '/assets/images/header.jpg' | prepend: site.baseurl }} style="max-width: 940px" /> -->
+        <div class="jumbotron text-center" style="background-color: #222;margin-top: 70px">
+        	
+
+        <h1 id="jumbotrontitle">{{ translation.sitename }}</h1>
+        <p id="jumbotroncontent">{{ translation.sitesubname }}</p>
+        <!-- <p><a id="jumbotronurl" class="btn btn-primary btn-lg" role="button">
+        {{ translation.readmore }}</a>
+      </p> -->
+   </div>
+</div>

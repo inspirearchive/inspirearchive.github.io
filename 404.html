@@ -1,0 +1,67 @@
+---
+layout: null
+lang: en
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Page not found - JOYTOU" />
+	<meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{% for word in site.keywords %}{{ word }}{% unless forloop.last %},{% endunless %}{% endfor %}">
+    <meta name="author" content="{{ site.author }}">
+	<meta name="owner" content="{{ site.owner_name }}" />
+    <meta name="copyright" content="(c) 2017 - 2018" />
+	<link rel="icon" href="{{ '/assets/favicon-32.ico' | prepend: site.baseurl }}">
+    <link rel="bookmark" href="{{ '/assets/favicon-128.ico' | prepend: site.baseurl }}" type="image/x-icon"　/>
+	<title>Page not found - Inspire</title>
+	<link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | prepend: site.baseurl }}">
+	<script src="{{ '/assets/js/jquery-3.2.1.min.js' | prepend: site.baseurl }}"></script>
+	<script src="{{ '/assets/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+  </head>
+  <body>
+	<nav class="navbar navbar-inverse" role="navigation">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse"
+			data-target="#example-navbar-collapse">
+            <span class="sr-only">Switch navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="/"><span><img src="{{ '/assets/logo.png' | prepend: site.baseurl }}" width="32px" alt="Inspire" style="margin-top: -6px"/> INSPIRE</span></a>
+		</div>
+	  </div>
+	</nav>
+	<div class="container">
+	  <div class="blog-header"></div>
+	  
+	  <div class="blog-main text-center">
+        <script>
+          document.write('<h3>Inspire'+location.pathname+'</h3><p><h3>The page you are currently visiting is: '+location.pathname+'</h3></p>');
+        </script>
+
+		<h3>The page can not be found</h3>
+		 <br>
+		<h1>404-Page not found</h1>
+		 <br>
+		<a class="btn btn-default btn-lg btn-block" role="button" href="{{ site.baseurl }}/">
+		  Home</a>
+	  </div>
+	   <br>
+	  {% capture builder %}<a href="#">Inspire</a>{% endcapture %}
+	  {% capture style %}<a href="#">Bootstrap</a>{% endcapture %}
+	  <div class="blog-footer text-center">
+		<p>Copyright &copy; 2020 - 2021 <a href="#"> Inspire</a></p>
+		<p>{{ translation.footcopyright | replace: 'builder', builder | replace: 'style', style }}</p>
+		<p>
+		  <a href="#">{{ translation.backtop }}</a>
+		</p>
+	  </div>
+	</div>
+  </body>
+</html>
+		
