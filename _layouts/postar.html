@@ -11,7 +11,7 @@ layout: default
 			<p><span class="glyphicon glyphicon-bookmark"></span> <span class="label label-default">{{ page.categories }}</span></p>
 			<p><span class="glyphicon glyphicon-tags"></span> {%- for tag in page.tags -%}<span class="label label-default">{{ tag }}</span> {%- endfor -%}</p>
 			<hr>
-			<span style="display:block;text-align:center"><img src="{{ page.feature_image }}"></span>
+			<!--<span style="display:block;text-align:center"><img src="{{ page.feature_image }}"></span>-->
             {{ content }}
             {%- include post_pagination.html -%}
 </div>
