@@ -8,8 +8,8 @@ gems:        []
 highlighter:     rouge
 
 # Site settings
-email: master@joytou.net.cn
-author: user
+email: bradpiper@protonmail.com
+author: Inspire
 owner_name: Inspire
 
 #Server
@@ -48,7 +48,7 @@ exclude: ['README.md','Manifest.md']
 include: ['robots.txt','404.html','.htaccess']
 
 # Description
-description: "Not only for the existence of the blog, but also because of the existence of the blog."
+description: ""
 
 # Keywords
 keywords:
