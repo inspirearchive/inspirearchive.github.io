@@ -170,3 +170,13 @@ word-wrap: break-word;
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+#jumbotrontitle {
+  color:2e2e2e;
+}
+
+#jumbotroncontent {
+  color:2e2e2e;
+}
+}
+}
