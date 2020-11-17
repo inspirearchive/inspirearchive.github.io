@@ -14,74 +14,74 @@ en:
    country:
                    - "en"
 
-ur: 
-   language: "اردو"
-   code: "ur"
-   simplecode: "ur"
-   lang: "ur"
-   country:
-                   - "ur"
+# ur: 
+#   language: "اردو"
+#   code: "ur"
+#   simplecode: "ur"
+#   lang: "ur"
+#   country:
+#                   - "ur"
 
-ps: 
-   language: "پښتو"
-   code: "ps"
-   simplecode: "ps"
-   lang: "ps"
-   country:
-                   - "ps"                   
+# ps: 
+#   language: "پښتو"
+#   code: "ps"
+#   simplecode: "ps"
+#   lang: "ps"
+#   country:
+#                   - "ps"                   
 
-bn: 
-   language: "বাংলা"
-   code: "bn"
-   simplecode: "bn"
-   lang: "bn"
-   country:  
-                   - "bn"
+# bn: 
+#   language: "বাংলা"
+#   code: "bn"
+#   simplecode: "bn"
+#   lang: "bn"
+#   country:  
+#                   - "bn"
    
-hi:
-   language: "हिन्दी"
-   code: "hi"
-   simplecode: "hi"
-   lang: "hi"
-   country:
-                   - "hi"
+# hi:
+#   language: "हिन्दी"
+#   code: "hi"
+#   simplecode: "hi"
+#   lang: "hi"
+#   country:
+#                   - "hi"
 
-rh:
-   language: "rohynga"
-   code: "rh"
-   simplecode: "rh"
-   lang: "rh"
-   country:
-                   - "rh" 
+# rh:
+#   language: "rohynga"
+#   code: "rh"
+#   simplecode: "rh"
+#   lang: "rh"
+#   country:
+#                   - "rh" 
 
-as: 
-   language: "অসমীয়া"
-   code: "as"
-   simplecode: "as"
-   lang: "as"
-   country:  
-                   - "as"
+# as: 
+#   language: "অসমীয়া"
+#   code: "as"
+#   simplecode: "as"
+#   lang: "as"
+#   country:  
+#                   - "as"
 
-ta: 
-   language: "தமிழ்"
-   code: "ta"
-   simplecode: "ta"
-   lang: "ta"
-   country:  
-                   - "ta"
+# ta: 
+#   language: "தமிழ்"
+#   code: "ta"
+#   simplecode: "ta"
+#   lang: "ta"
+#   country:  
+#                   - "ta"
 
-tr: 
-   language: "Türkçe"
-   code: "tr"
-   simplecode: "tr"
-   lang: "tr"
-   country:  
-                   - "tr"
+# tr: 
+#   language: "Türkçe"
+#   code: "tr"
+#   simplecode: "tr"
+#   lang: "tr"
+#   country:  
+#                   - "tr"
 
-ug: 
-   language: "ئۇيغۇرچە"
-   code: "ug"
-   simplecode: "ug"
-   lang: "ug"
-   country:  
-                   - "ug"
+# ug: 
+#   language: "ئۇيغۇرچە"
+#   code: "ug"
+#   simplecode: "ug"
+#   lang: "ug"
+#   country:  
+#                   - "ug"
