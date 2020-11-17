@@ -12,6 +12,7 @@ layout: default
 			<p><span class="glyphicon glyphicon-tags"></span> {%- for tag in page.tags -%}<span class="label label-default">{{ tag }}</span> {%- endfor -%}</p>
 			<hr>
 			<span style="display:block;text-align:center"><img src="{{ page.feature_image }}"></span>
+			<br>
             {{ content }}
             {%- include post_pagination.html -%}
 </div>
